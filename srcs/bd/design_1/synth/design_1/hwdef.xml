@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Project Version="1" Minor="3" DIGEST="">
+	<TOOL_VERSION Version="2019.1"/>
+	<MODE Name="Pre-Synthesis"/>
+	<SYSTEMINFO BOARD="digilentinc.com:zybo-z7-20:1.1" PART="xc7z020clg400-1" ARCH="zynq" PACKAGE="clg400" DEVICE="7z020" SPEED="-1"/>
+	<HIERARCHY Name=""/>
+	<File Type="HW_HANDOFF" Name="design_1.hwh" DESIGN_HIERARCHY="" BD_TYPE="DEFAULT_BD"/>
+	<File Type="BD_TCL" Name="design_1_bd.tcl"/>
+	<BOARD Type="NotIntegrated">
+		<BASEBOARD Name="digilentinc.com:zybo-z7-20:1.1">
+		</BASEBOARD>
+	</BOARD>
+	<USEDRESOURCES/>
+</Project>
+

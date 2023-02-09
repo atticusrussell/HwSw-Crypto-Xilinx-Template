@@ -1,0 +1,179 @@
+# seperate sw ignore file from main to not accidentally ignore Vivado stuff
+
+# ignore the Debug subdirs
+**/Debug/*
+# ignore directories (and their contents) that contain "wrapper_hw_platform" in their names
+/*wrapper_hw_platform*/
+
+**/.temp/*
+**/RemoteSystemsTempFiles/*
+**/webtalk/*
+
+
+# The following all come from templates
+#
+# C gitignore contents
+# https://github.com/github/gitignore/blob/4488915eec0b3a45b5c63ead28f286819c0917de/C.gitignore
+# =====================================================================================
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.confk
+
+
+# Eclipse gitignore stuff
+# https://github.com/github/gitignore/blob/4488915eec0b3a45b5c63ead28f286819c0917de/Global/Eclipse.gitignore
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+# .cproject
+
+# CDT- autotools
+.autotools
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+#.project
+
+
+# Xilinx .gitignore stuff
+# https://github.com/github/gitignore/blob/4488915eec0b3a45b5c63ead28f286819c0917de/community/Xilinx.gitignore
+# [home]
+*.jou
+*.log
+*.debug
+*.str
+*.zip
+*.tmp
+*.rst
+*.os
+*.js
+*.pb
+*.dcp
+*.hwdef
+*.vds
+*.veo
+*.wdf
+*.vdi
+*.dmp
+*.rpx
+*.rpt
+*_stub.v
+*_stub.vhdl
+*_funcsim.v
+*_funcsim.vhdl
+# .project
+
+# [dir]
+*.cache
+.metadata
+*.data
+*.ipdefs
+.Xil
+*.sdk
+*.hw
+*.ip_user_files
+
+### IP synth
+*_synth_*
+
+.jobs
+
+

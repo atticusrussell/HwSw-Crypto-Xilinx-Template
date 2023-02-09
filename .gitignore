@@ -1,0 +1,5 @@
+# ignore the folder where Vivado stores all its BS
+vivado_project/*
+
+# ignore the folder where I work with SDK
+# sdk_project/*
